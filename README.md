@@ -1,6 +1,8 @@
-# Create an Invoicing Application with Python and Bootstrap5
+### Create an Invoicing Application with Django and Bootstrap5
 
-## Requirements File
+`this branch is just a boiler-plate to complete project`
+
+##### Requirements File
 
 You need to install the following packages before running the code:
 
