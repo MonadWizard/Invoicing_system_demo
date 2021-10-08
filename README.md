@@ -1,23 +1,27 @@
 ### Create an Invoicing Application with Django and Bootstrap5
 
-`this branch is just a boiler-plate to complete project`
+`this branch contain complete work`
 
-##### Requirements File
+Database on postgreSQL:
 
-You need to install the following packages before running the code:
-
-```sh
-pip install django
-
-pip install psycopg2
-
-pip install Pillow
-
-pip install uuid
-
-pip install requests
-
-pip install django-crispy-forms
-
-pip install pdfkit
 ```
+                            [Product]
+                                ↑
+                                |
+                            1_to_many
+                                |
+                                |
+    [Client] --1_to_many---> [Invoice]          [Setting]
+                             
+    
+
+```
+
+Complete without SMTP EmailBackend.
+you have to add own EMAIL_HOST at the last of settings.py
+
+
+Demo video:
+
+
+
