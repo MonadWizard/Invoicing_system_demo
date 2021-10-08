@@ -23,5 +23,7 @@ you have to add own EMAIL_HOST at the last of settings.py
 
 Demo video:
 
+https://youtu.be/SJ-sAdsr-7w
+
 
 
