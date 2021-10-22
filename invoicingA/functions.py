@@ -18,3 +18,6 @@ def emailInvoiceClient(to_email, from_client, filepath):
     message = EmailMessage(subject, body, from_email, [to_email])
     message.attach_file(filepath)
     message.send()
+
+
+
