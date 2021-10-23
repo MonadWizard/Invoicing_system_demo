@@ -48,17 +48,16 @@ def login(request):
 
         username = request.POST['username']
         password = request.POST['password']
-
         user = auth.authenticate(username=username, password=password)
+        
         if user is not None:
             auth.login(request, user)
-
             return redirect('dashboard')
+
         else:
             context['form'] = form
             messages.error(request, 'Invalid Credentials')
             return redirect('login')
-
 
     return render(request, 'invoice/login.html', context)
 
